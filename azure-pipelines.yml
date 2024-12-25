@@ -23,7 +23,7 @@ stages:
         repository: $(webRepository)
         dockerfile: '$(Build.SourcesDirectory)/Tailspin.SpaceGame.Web/Dockerfile'
         # containerRegistry: 'Container Registry Connection'
-        containerRegistry: 'training'
+        containerRegistry: 'dockertraining'
         tags: |
           $(tag)
 
